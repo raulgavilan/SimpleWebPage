@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>EMPRESA</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <p>EMPRESA</p>
+    </div>
+    <nav>
+
+        <div class="nohamburger">
+            <a href="index.html">INICIO</a>
+            <a href="somos.html">SOMOS</a>
+            <a href="servicios.html">SERVICIOS</a>
+            <a href="contacto.html">CONTACTO</a>
+        </div>
+
+        <div class="hamburger">
+            <a href="index.html">INICIO</a>
+            <a href="somos.html">SOMOS</a>
+            <a href="servicios.html">SERVICIOS</a>
+            <a href="contacto.html">CONTACTO</a>
+        </div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="brand">
+
+        </div>
+    </nav>
+  </header>
+
+
+<main class="mainsomos">
+    <article class="banda">
+        <p class="primero">MONTA CARGAS</p>
+        <p class="segundo">EQUIPOS DE GAS</p>
+        <p class="tercero">HIDRAULICA</p>
+    </article>
+
+    <section class="contact-section">
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contactform">
+            <form onsubmit="">
+                <input id="fname" name="fname" placeholder="Nombre Apellido" class="campo"><input id="ftel" name="ftel" placeholder="Nro de telefono" class="campo">
+                <input id="femail" name="femail" placeholder="Direccion de Email" class="campo"><input id="fasunto" name="fasunto" placeholder="Asunto" class="campo">
+                <textarea id="textcampo" name="company" rows="9" cols="80" placeholder="Escriba su mensaje" class="campo"></textarea>
+                <button id="submit-button" type="submit">ENVIAR</button>
+            </form>
+        </div>
+    </section>
+
+
+    <section class="contact-movil">
+        <div class="contactlist">
+            <div>
+                <a href="">
+                    <img src="images/direcdorado.png" alt="">
+                    <p>Fdo de la Mora - Asunción</p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="images/whatdorado.png" alt="">
+                    <p>+595 (998) 45 84 78</p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="images/teldorado.png" alt="">
+                    <p>+595 (21) 784 758</p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="images/maildorado.png" alt="">
+                    <p>contacto@empresa.com</p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="images/facedorado.png" alt="">
+                    <p>facebook.com/empresa</p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="images/horariodorado.png" alt="">
+                    <p>Lu - Vi 08:30 - 18:00, Sa 08:00 a 12:00</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+</main>
+<footer class="footerdesk">
+    <div class="iconos">
+        <a href="https://www.facebook.com/public/Calwin" target="_blank"><img class="ico" src="images/facebookicon3.png"></a>
+        <a href="#" class="tooltip"><img class="ico" src="images/horarioicono2.png"><span class="tooltiptext">HORARIOS<br> LUNES A VIERNES<br> 08:30 a 18:00</span></a>
+        <a href="https://web.whatsapp.com/" target="_blank"><img class="ico" src="images/whaicon2.png"></a>
+        <a href="#"><img class="ico" src="images/teleficon2.png"></a>
+        <span>+595 (21) 555 555 | Fdo. de la Mora Asunción</span>
+    </div>
+    <div class="marca">
+        <p>EMPRESA @2023</p>
+    </div>
+</footer>
+
+<footer class="footermovil">
+    <div class="marca">
+        <p>EMPRESA @2023</p>
+    </div>
+</footer>
+<script>
+  let burguer = document.getElementsByClassName("toggle-button")[0];
+  let menu = document.getElementsByClassName("hamburger")[0];
+
+  burguer.addEventListener("click", () => {
+      menu.classList.toggle("active");
+  })
+</script>
+</body>
+</html>

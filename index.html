@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Empresa</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <p>Empresa</p>
+    </div>
+    <nav>
+
+        <div class="nohamburger">
+            <a href="index.html">INICIO</a>
+            <a href="somos.html">SOMOS</a>
+            <a href="servicios.html">SERVICIOS</a>
+            <a href="contacto.html">CONTACTO</a>
+        </div>
+
+        <div class="hamburger">
+            <a href="index.html">INICIO</a>
+            <a href="somos.html">SOMOS</a>
+            <a href="servicios.html">SERVICIOS</a>
+            <a href="contacto.html">CONTACTO</a>
+        </div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        
+    </nav>
+  </header>
+
+
+<main class="mainindex">
+    <article class="banda">
+            <p class="primero">MONTA CARGAS</p>
+            <p class="segundo">EQUIPOS DE GAS</p>
+            <p class="tercero">HIDRAULICA</p>
+    </article>
+    <div class="slider">
+        <div class="slideshow">
+
+        </div>
+    </div>
+
+</main>
+<footer class="footerdesk">
+    <div class="iconos">
+        <a href="https://www.facebook.com/public/Calwin" target="_blank"><img class="ico" src="images/facebookicon3.png"></a>
+        <a href="#" class="tooltip"><img class="ico" src="images/horarioicono2.png"><span class="tooltiptext">HORARIOS<br> LUNES A VIERNES<br> 08:30 a 18:00</span></a>
+        <a href="https://web.whatsapp.com/" target="_blank"><img class="ico" src="images/whaicon2.png"></a>
+        <a href="#"><img class="ico" src="images/teleficon2.png"></a>
+        <span>+595 (21) 555 555 | Fdo. de la Mora Asunción</span>
+    </div>
+    <div class="marca">
+        <p>EMPRESA @2023</p>
+    </div>
+</footer>
+
+<footer class="footermovil">
+    <div class="marca">
+        <p>Empresa @2023</p>
+    </div>
+</footer>
+
+<script>
+  let burguer = document.getElementsByClassName("toggle-button")[0];
+  let menu = document.getElementsByClassName("hamburger")[0];
+
+  burguer.addEventListener("click", () => {
+      menu.classList.toggle("active");
+  })
+</script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<section id="about">
+    <div id="images">
+        <img src="images/image.jpg">
+        <img src="images/person.jpg">
+    </div>
+    <div id="description">
+        <h2>About me</h2>
+        <p>Hi I'm Jane Doe. I've been a Junior front-end developer for 5 month now.</p>
+        <p>For me, programming is not just a job, it's s hobby.</p>
+        <p>I open to new knowledge, I like to study new technogies and apply them in practice.</p>
+        <p><strong>Skills: </strong> HTML, CSS, JS, React.</p>
+    </div>
+</section>
+
+<section id="portfolio">
+    <h2>PORTFOLIO</h2>
+    <div id="projects">
+        <figure>
+            <img src="images/project1.png" alt="Flashcard project">
+            <button type="button" class="open-window" title="More Info" onclick="document.querySelector('#info1').classList.toggle('hidden')">More info</button>
+            <figcaption>Flashcards</figcaption>
+            <div id="info1" class="window hidden">
+                <h2>Template</h2>
+                <p>Project Info</p>
+                <button type="button" class="close-window" title="More Info" onclick="this.parentElement.classList.toggle('hidden')">Close</button>
+            </div>
+        </figure>
+
+        <figure>
+            <img src="images/project2.png" alt="Virtual Piano project">
+            <button type="button" class="open-window" title="More Info" onclick="document.querySelector('#info2').classList.toggle('hidden')">More info</button>
+            <figcaption>Virtual Piano</figcaption>
+            <div id="info2" class="window hidden">
+                <h2>Template</h2>
+                <p>Project Info</p>
+                <button type="button" class="close-window" title="More Info" onclick="this.parentElement.classList.toggle('hidden')">Close</button>
+            </div>
+        </figure>
+    </div>
+</section>
+
+<section id="contacts">
+    <h2>CONTACTS</h2>
+    <p>You can contact me at <a href="#">gdsse@gmail.com</a></p>
+    <p>or phone <a href="#">+254587568</a></p>
+    <div id="icons">
+        <img src="images/facebook.svg">
+        <img src="images/github.svg">
+        <img src="images/instagram%201.svg">
+        <img src="images/twitter.svg">
+    </div>
+</section>
